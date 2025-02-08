@@ -1,0 +1,66 @@
+.header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header__wrapper{
+  display: flex;
+  border-radius: 100px;
+  width: 1320px;
+  /* height: 96px; */
+  background-color: var(--c-header-bg) ;
+  align-items: center;
+  padding:  24px 32px 24px 32px;
+  margin-top: 32px;
+}
+.header__links{
+  display: flex;
+  width: 648px;
+  height: 22px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  margin-left: 87px;
+  gap: 48.25px; 
+}
+a {
+  text-decoration: none;
+  color: #747474;
+}
+.btn-transparent{
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  color: #03854d;
+}
+.btn-prime{
+  background-color: #03854d;
+  border-radius: 100px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+  padding: 16px 32px 16px 32px;
+  color: #fafafa;    
+}
+.header__buttons{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: auto;
+}
+
+
+
+ 
+
+/* padding: 10px 0; Внутренние отступы */
+/* cursor: pointer; Указатель при наведении */
+/* text-decoration: none; Убираем подчёркивание */
+/* padding: 6px 12px; Отступы внутри кнопки */
+/* border-radius: 20px; Скруглённые края 

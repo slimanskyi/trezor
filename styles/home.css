@@ -1,0 +1,25 @@
+.home__hero{
+    background-image: url('../images/bg__home.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 822px;
+}
+.text__hero{
+    width: 648px;
+    height: 287px;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 120%;
+    color: #f5f5f5;
+    margin: 112px 688px 40px 300px;
+}
+.btn__hero{
+    background: #03854d;
+    border-radius: 100px;
+    margin: 40px 160px 207px 300px;
+    width: 176px;
+    height: 48px;
+    background: #03854d;
+    color: #fafafa;
+    text-align: center;
+}
