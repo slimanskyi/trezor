@@ -14,19 +14,18 @@
 .hero__btn {
   background: #03854d;
   border-radius: 100px;
-  margin: 40px 160px 207px 0px;
-  width: 176px;
-  height: 48px;
-  background: #03854d;
   color: #fafafa;
   text-align: center;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+
 }
 .hero__elems{
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: var(--c-text-white);
-    padding: 45px 0px 160px 0px;
 }
 .text__white{
   font-weight: 400;
@@ -34,4 +33,33 @@
   line-height: 135%;
   color: var(--c-text-white);
   margin: 12px 0px 0px 0px;
+  width: 30%;
+}
+
+.gray_header_elements{
+  background: rgba(221, 221, 221, 0.4);
+  border-radius: 100px;
+  padding: 8px 12px;
+  width: 65px;
+  height: 38px;
+
+}
+
+.hero__bottom {
+  width: 50%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* расстояние между элементами */
+}
+
+.hero__btn {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.hero__elems {
+  display: flex;
+  gap: 50px;
 }
