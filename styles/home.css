@@ -19,15 +19,14 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
-
 }
-.hero__elems{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: var(--c-text-white);
+.hero__elems {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: var(--c-text-white);
 }
-.text__white{
+.text__white {
   font-weight: 400;
   font-size: 16px;
   line-height: 135%;
@@ -36,13 +35,12 @@
   width: 30%;
 }
 
-.gray_header_elements{
+.gray_header_elements {
   background: rgba(221, 221, 221, 0.4);
   border-radius: 100px;
   padding: 8px 12px;
   width: 65px;
   height: 38px;
-
 }
 
 .hero__bottom {
@@ -51,7 +49,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px; /* расстояние между элементами */
+  gap: 20px;
 }
 
 .hero__btn {
@@ -62,4 +60,7 @@
 .hero__elems {
   display: flex;
   gap: 50px;
+}
+.exchanges {
+  margin-top: 113px;
 }

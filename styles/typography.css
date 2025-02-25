@@ -14,8 +14,10 @@ body {
 
   .text-gray {
     font-family: var(--font-family);
+    font-weight: 400;
     font-size: 16px;
     line-height: 135%;
+    text-align: center;
     color: var(--c-text-gray);
   }
 
@@ -49,4 +51,4 @@ body {
     line-height: 135%;
     color: var(--c-text-gray2);
   }
-
+  
