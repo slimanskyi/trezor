@@ -62,5 +62,36 @@
   gap: 50px;
 }
 .exchanges {
-  margin-top: 113px;
+  margin: 113px 0px;
+}
+.choice {
+  border-radius: 40px;
+  width: 1320px;
+  background: var(--c-header-bg);
+  margin: 145px 0px 0px 0px;
+}
+.choice__traiding {
+  display: flex;
+  flex-direction: column;
+  padding-top: 34px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+  color: var(--c-text-gray);
+  padding: 73px 278px 0px 0px;
+  gap: 24px;
+}
+.gray_section2_elements {
+  background: rgba(221, 221, 221, 0.4);
+  border-radius: 100px;
+  margin-right: 12px;
+}
+.title__traiding {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 120%;
+  color: #1b1b1b;
+}
+.traiding {
+  margin: 73px 248px 112px 0px;
 }
