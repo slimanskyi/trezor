@@ -9,8 +9,7 @@
 .header__wrapper{
   display: flex;
   border-radius: 100px;
-  width: 1320px;
-  /* height: 96px; */
+  width: 1320px; 
   background-color: var(--c-header-bg) ;
   align-items: center;
   padding:  24px 32px 24px 32px;

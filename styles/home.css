@@ -63,7 +63,7 @@
 }
 .exchanges {
   background-color: #f6f6f6;
-  padding:113px 0px 40px 0px;
+  padding: 113px 0px 40px 0px;
 }
 .choice {
   border-radius: 40px;
@@ -82,55 +82,63 @@
   line-height: 120%;
   color: #1b1b1b;
 }
-.exchanges__subtitle{
+.exchanges__subtitle {
   display: flex;
   justify-self: center;
   width: 648px;
   margin-bottom: 72px;
 }
-.exchanges__title{
+.exchanges__title {
   margin-bottom: 16px;
 }
-.exchanges__block{
+.exchanges__block {
   display: flex;
   justify-content: space-between;
   border-radius: 40px;
   background: #fefefe;
   padding: 73px 112px 121px 112px;
 }
-.exchanges__col h2{
+.exchanges__col h2 {
   margin-bottom: 34px;
 }
-.exchanges__col-item{
+.exchanges__col-item {
   display: flex;
   align-items: center;
   gap: 12px;
   margin-bottom: 24px;
 }
-.exchanges__col-item:last-of-type{
+.exchanges__col-item:last-of-type {
   margin-bottom: 0;
 }
-.exchanges__block-divider{
+.exchanges__block-divider {
   background-color: #e1e1e1;
   width: 1px;
 }
 .benefits {
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   display: flex;
   justify-content: center;
   padding: 32px 0px 32px 0px;
 }
-.benefits__info{
-  background-image: url('../images/benefit_bg.jpg');
+.benefits__info {
+  background-image: url("../images/benefit_bg.jpg");
   height: 805px;
   width: 1320px;
   border-radius: 40px;
 }
-.benefit__choice1{
+.benefits__choices {
+  display: flex;
+  gap: 60.5px;
+  margin: 687px 224px 56px 224px;
+}
+.benefit__choice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   border-radius: 100px;
   padding: 10px 16px 12px 12px;
-  width: 300px;
-  height: 62px;
   background: #fefefe;
-  
+}
+.benefit__text1 {
+  display: flex;
 }
