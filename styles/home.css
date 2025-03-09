@@ -134,7 +134,7 @@
   align-items: flex-end;
   height: 100%;
   gap: 60.5px;
-} 
+}
 .benefit__choice {
   display: flex;
   align-items: center;
@@ -143,7 +143,10 @@
   padding: 10px 16px 12px 12px;
   background: #fefefe;
 }
-.traiding__assets__block{
+.assets__block {
   display: flex;
-  height: 1063;
+  justify-content: space-between;
+}
+.traiding__assets {
+  background-color: #f6f6f6;
 }
