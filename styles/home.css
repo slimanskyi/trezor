@@ -124,13 +124,17 @@
   background-image: url("../images/benefit_bg.jpg");
   height: 805px;
   width: 1320px;
+  background-size: cover;
   border-radius: 40px;
+  padding-bottom: 56px;
 }
 .benefits__choices {
   display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
   gap: 60.5px;
-  margin: 687px 224px 56px 224px;
-}
+} 
 .benefit__choice {
   display: flex;
   align-items: center;
@@ -138,7 +142,4 @@
   border-radius: 100px;
   padding: 10px 16px 12px 12px;
   background: #fefefe;
-}
-.benefit__text1 {
-  display: flex;
-}
+} 
