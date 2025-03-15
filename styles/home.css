@@ -147,6 +147,23 @@
   display: flex;
   justify-content: space-between;
 }
-.traiding__assets {
+.assets {
   background-color: #f6f6f6;
+}
+.assets__col1 {
+  background: #fefefe;
+  border-radius: 48px;
+}
+.assets__col2 {
+  background: #fefefe;
+  border-radius: 48px;
+}
+.assets__svg {
+  border-radius: 16px;
+  width: 80px;
+  height: 80px;
+  background: #e9f2ed;
+}
+.assets__title {
+  margin-bottom: 84px;
 }
