@@ -146,24 +146,30 @@
 .assets__block {
   display: flex;
   justify-content: space-between;
+  gap: 24px;
 }
 .assets {
   background-color: #f6f6f6;
 }
-.assets__col1 {
-  background: #fefefe;
-  border-radius: 48px;
-}
-.assets__col2 {
-  background: #fefefe;
-  border-radius: 48px;
+.assets__col {
+  width: 50%;
 }
 .assets__svg {
-  border-radius: 16px;
-  width: 80px;
-  height: 80px;
-  background: #e9f2ed;
 }
-.assets__title {
-  margin-bottom: 84px;
+.assets__title, .assets__subtitle {
+  text-align: left;
+}
+.assets__item {
+  background: #fefefe;
+  border-radius: 48px;
+  padding: 110px;
+}
+.assets__info {
+
+}
+.assets__subtitle{
+  width: 536px;
+}
+.assets__title{
+  margin-bottom: 12px;
 }
