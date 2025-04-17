@@ -151,8 +151,14 @@
 .assets {
   background-color: #f6f6f6;
 }
-.assets__col {
+.assets__col1 .assets__col2 {
   width: 50%;
+}
+.assets__col2{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 142px;
 }
 .assets__svg {
 
@@ -161,13 +167,13 @@
   text-align: left;
   margin-bottom: 84px;
 }
-.assets__item  {
+.assets__item {
   background: #fefefe;
   border-radius: 48px;
   padding: 110px;
 }
 .assets__info {
-
+  margin: 108px 0px 84px 0px;
 }
 .assets__subtitle{
   width: 536px;
