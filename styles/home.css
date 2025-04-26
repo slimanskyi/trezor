@@ -181,3 +181,7 @@
 .assets__title{
   margin-bottom: 12px;
 }
+.assets__svg{
+  border-radius: 16px;
+  background: lightgreen;
+}
